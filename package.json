@@ -1,0 +1,22 @@
+{
+  "name": "messaging-system",
+  "version": "1.0.0",
+  "description": "Messaging System Sprint for 13th Batch of Intern",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinpaolo/messaging-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinpaolo/messaging-system/issues"
+  },
+  "homepage": "https://github.com/robinpaolo/messaging-system#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
