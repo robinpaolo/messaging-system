@@ -1,6 +1,10 @@
+.container{
+    margin:0;
+    padding: 0;
+}
 .has-search .form-control {
     padding-left: 2.375rem;
-    width: 40%;
+    width: 35%;
 }
 
 .has-search .form-control-feedback {
@@ -13,6 +17,21 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+
+.pic{
+    width: 5%;
+}
+
+.chatTxt{
+    display: inline-block;
+    padding-right:25%;
+
+}
+
+.settings{
+    position: relative;
+    cursor: pointer;
 }
 
 

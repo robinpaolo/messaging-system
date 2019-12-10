@@ -24,24 +24,30 @@
 </head>
 
 <body>
-    <div class="dropdown">
+    <div class="container">
+        <div class="dropdown">
+            <img src="/public/img/defaultpic.png" class="rounded-circle pic pic" alt="profilepic">
+            <p class="chatTxt">Chats</p>
 
-        <i class="fas fa-ellipsis-v fa-1x" data-toggle="dropdown">
+            <i class="fas fa-cogs fa-1x settings" data-toggle="dropdown">
+            </i>
 
-        </i>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Profile & Account</a>
-            <a class="dropdown-item" href="#">Status</a>
-            <a class="dropdown-item" href="#">Help</a>
-            <a class="dropdown-item" href="#">Logout</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Profile & Account</a>
+                <a class="dropdown-item" href="#">Status</a>
+                <a class="dropdown-item" href="#">Help</a>
+                <a class="dropdown-item" href="#">Logout</a>
+            </div>
+
         </div>
 
+        <!-- Search form -->
+        <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
     </div>
-    <!-- Search form -->
-    <div class="form-group has-search">
-        <span class="fa fa-search form-control-feedback"></span>
-        <input type="text" class="form-control" placeholder="Search">
-    </div>
+
 
 </body>
 
