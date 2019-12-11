@@ -4,7 +4,10 @@
 }
 .has-search .form-control {
     padding-left: 2.375rem;
-    width: 35%;
+    width: 130px;
+    margin-left: 5px;
+    
+    
 }
 
 .has-search .form-control-feedback {
@@ -20,18 +23,31 @@
 }
 
 .pic{
-    width: 5%;
+    margin:10px;
+    width: 30px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    
 }
 
 .chatTxt{
     display: inline-block;
-    padding-right:25%;
+    padding-right:20px;
 
 }
 
 .settings{
-    position: relative;
     cursor: pointer;
+    position: relative;
+    float: inline-start;
+   
 }
+@media(min-width:425px){
+    .has-search .form-control {
+        width: 140px;
+    }
+}
+ 
+
 
 
